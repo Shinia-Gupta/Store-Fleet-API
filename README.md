@@ -1,6 +1,6 @@
 # Store Fleet API 
 
-Store Fleet is a project built with Node.js and Express.js to manage users, products, and orders for an online store. It provides API endpoints for various functionalities related to users, products, and orders.
+Store Fleet is a project built with Node.js, Express.js and MongoDB to manage users, products, and orders for an online store. It provides API endpoints for various functionalities related to users, products, and orders.
 
 ## Features 
 ### User Management
