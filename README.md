@@ -2,6 +2,36 @@
 
 Store Fleet is a project built with Node.js and Express.js to manage users, products, and orders for an online store. It provides API endpoints for various functionalities related to users, products, and orders.
 
+## Features 
+### User Management
+
+- **User Registration**: Users can sign up for a new account.
+- **User Authentication**: Existing users can log in to their accounts securely.
+- **Password Management**: Users can reset forgotten passwords.
+- **Profile Update**: Users can update their profile information.
+- **Logout**: Users can log out of their accounts securely.
+- **Admin Features**: Administrators have access to additional functionalities like viewing all users, getting details of a specific user, deleting users, and updating user profiles and roles.
+
+### Product Management
+
+- **Product Listing**: Users can view a list of all available products.
+- **Product Details**: Users can view detailed information about a specific product.
+- **Product Reviews**: Users can view reviews for a product.
+- **Product Addition**: Admins can add new products to the store.
+- **Product Update**: Admins can update existing product details.
+- **Product Deletion**: Admins can delete products from the store.
+- **Product Rating**: Users can rate products.
+- **Review Deletion**: Users can delete their own reviews.
+
+### Order Management
+
+- **Order Creation**: Users can create new orders for products they wish to purchase.
+
+### Security
+
+- **JWT Authentication**: Uses JSON Web Tokens (JWT) for user authentication and authorization.
+- **Role-Based Access Control**: Differentiates between user roles (e.g., regular user, admin) to control access to certain functionalities.
+
 ## Installation
 - Clone the repository:
 
